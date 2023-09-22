@@ -23,7 +23,7 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/silenceper/wechat/v2"
+	"github.com/yangguangpeng/wechat/v2"
 	"github.com/yangguangpeng/wechat/v2/work/msgaudit"
 	"github.com/yangguangpeng/wechat/v2/work/config"
 	"io/ioutil"
