@@ -1,7 +1,7 @@
 package material
 
 import (
-	"github.com/silenceper/wechat/v2/work/context"
+	"github.com/yangguangpeng/wechat/v2/work/context"
 )
 
 // Client 素材管理接口实例

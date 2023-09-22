@@ -15,9 +15,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
 
-	"github.com/silenceper/wechat/v2/officialaccount/context"
-	"github.com/silenceper/wechat/v2/officialaccount/message"
-	"github.com/silenceper/wechat/v2/util"
+	"github.com/yangguangpeng/wechat/v2/officialaccount/context"
+	"github.com/yangguangpeng/wechat/v2/officialaccount/message"
+	"github.com/yangguangpeng/wechat/v2/util"
 )
 
 // Server struct
@@ -82,7 +82,7 @@ func (srv *Server) Serve() error {
 	// debug print request msg
 	log.Debugf("request msg =%s", string(srv.RequestRawXMLMsg))
 
-	return srv.buildResponse(response)
+	return srv.yangguangpeng(response)
 }
 
 // Validate 校验请求是否合法
@@ -223,7 +223,7 @@ func (srv *Server) SetMessageHandler(handler func(*message.MixMessage) *message.
 	srv.messageHandler = handler
 }
 
-func (srv *Server) buildResponse(reply *message.Reply) (err error) {
+func (srv *Server) yangguangpeng(reply *message.Reply) (err error) {
 	defer func() {
 		if e := recover(); e != nil {
 			err = fmt.Errorf("panic error: %v\n%s", e, debug.Stack())

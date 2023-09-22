@@ -23,7 +23,7 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/silenceper/wechat/v2/util"
+	"github.com/yangguangpeng/wechat/v2/util"
 )
 
 // SingleFileUpload 单文件上传

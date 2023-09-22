@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/silenceper/wechat/v2/pay/config"
-	"github.com/silenceper/wechat/v2/util"
+	"github.com/yangguangpeng/wechat/v2/pay/config"
+	"github.com/yangguangpeng/wechat/v2/util"
 )
 
 // https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=9_1

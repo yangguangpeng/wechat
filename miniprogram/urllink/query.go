@@ -3,7 +3,7 @@ package urllink
 import (
 	"fmt"
 
-	"github.com/silenceper/wechat/v2/util"
+	"github.com/yangguangpeng/wechat/v2/util"
 )
 
 const queryURL = "https://api.weixin.qq.com/wxa/query_urllink"
